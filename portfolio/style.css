@@ -1,0 +1,118 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #F7F8FA;
+}
+
+li {
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+}
+
+#topBar {
+    background-color: #2F70C0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#quickInfo {
+    background-color: #5BA3EF;
+    height: 300px;
+
+}
+
+#hello {
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    font-size: 150%;
+    color: white;
+}
+
+#name {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 300%;
+    font-weight: bold;
+    margin-bottom: 2%;
+    color: white;
+}
+
+#intro {
+    width: 50%;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 2%;
+    color: white;
+}
+
+#skillsHeadder {
+    width: 16%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#skillDescription {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+}
+
+#skillBoxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.skillBox {
+    background-color: white;
+    width: 25%;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.skillTitle {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 40%;
+    font-weight: bold;
+    font-size: larger;
+}
