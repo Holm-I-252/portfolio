@@ -43,6 +43,19 @@ li {
     justify-content: space-between;
 }
 
+#socialLinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialIcon {
+    max-width: 100%;
+    height: 80%;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
 #quickInfo {
     background-color: #5BA3EF;
     height: 300px;
